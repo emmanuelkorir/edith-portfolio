@@ -4,7 +4,7 @@ A production-ready portfolio for **Edith Nduta Kuria**, architect (B.Arch, JKUAT
 
 The site is deliberately framework-free: hand-written HTML, CSS and vanilla JavaScript, with original SVG illustrations. There is no build step, no package manager and no runtime dependency. Open `index.html` through any static server and it works.
 
-> **Content status:** the structure, design and interactions are production-ready. The six projects, biography details, email address and domain are illustrative placeholders pending Edith's final copy and assets. See [Replacing placeholder content](#replacing-placeholder-content).
+> **Content status:** the structure, design and interactions are production-ready. The six projects, biography details, email address and domain are illustrative placeholders pending Edith's final copy and assets. See the [editing guide](#editing-guide).
 
 ---
 
@@ -63,6 +63,8 @@ Opening `index.html` directly from the filesystem mostly works, but a local serv
 ├── robots.txt
 ├── sitemap.xml
 ├── .nojekyll                  # Stops GitHub Pages from running Jekyll
+├── opencode.json              # Project instructions for OpenCode
+├── AGENTS.md                  # Durable project context and handoff notes
 └── README.md
 ```
 
@@ -137,7 +139,7 @@ To edit a project, change both parts:
 - The dialog's **Next project** button follows the order of projects in the DOM, including the current filter.
 - Update the filter counts in `.filters` (`All 06`, etc.) and the "Showing …" text is generated automatically by JavaScript.
 - Every case study currently says **Academic studio** or **Thesis** in its facts. Keep that accurate unless a project was actually built.
-- `<h2 class="case__title" id="project-dialog-title">` is required: the dialog uses it for its accessible name.
+- Keep the `.case__title` heading in every template. The dialog assigns the `project-dialog-title` id at runtime and uses it for its accessible name, so do not add duplicate ids to the template markup.
 - Figures use `width`/`height` to prevent layout shift. Keep the aspect ratio or update both attributes.
 
 To add a seventh project: duplicate an entire `<article>`, change the slug, category, copy and images, then update the counts and the `06` markers in navigation/section labels. The dialog script needs no changes.
@@ -243,7 +245,7 @@ After deploying, update the canonical/OG URLs and `sitemap.xml` to the real doma
 
 Before publishing a content update:
 
-- [ ] Test at 1440 px, 1024 px, 768 px and 390 px widths.
+- [ ] Test at 1440 px, 1024 px, 768 px, 390 px and 320 px widths.
 - [ ] Toggle light/dark; reload and confirm the choice persists.
 - [ ] Open every project; use **Next project**, `Escape`, the close button and the backdrop.
 - [ ] Filter each category; confirm counts, visible cards and keyboard focus.
