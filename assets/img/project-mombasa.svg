@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Mombasa Old Town Hostel</title>
+  <desc id="desc">A restored Swahili townhouse facade with a carved timber door, shaded balcony and coral-stone walls on a narrow Old Town street.</desc>
+  <defs>
+    <pattern id="c5-grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1C1A16" stroke-opacity=".05"/>
+    </pattern>
+    <pattern id="c5-stone" width="84" height="48" patternUnits="userSpaceOnUse">
+      <rect width="84" height="48" fill="#C9A98A"/>
+      <path d="M0 24h84M42 0v24M0 24v24M84 24v24" stroke="#1C1A16" stroke-opacity=".09" stroke-width="2"/>
+      <circle cx="20" cy="12" r="2" fill="#1C1A16" opacity=".08"/>
+      <circle cx="66" cy="38" r="2" fill="#1C1A16" opacity=".08"/>
+    </pattern>
+    <pattern id="c5-grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".6" fill="#1C1A16" opacity=".28"/>
+      <circle cx="5" cy="5.5" r=".5" fill="#1C1A16" opacity=".16"/>
+    </pattern>
+    <pattern id="c5-lattice" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="30" height="30" fill="#4E8C8A"/>
+      <path d="M0 15h30M15 0v30" stroke="#1C1A16" stroke-opacity=".35" stroke-width="3"/>
+      <circle cx="15" cy="15" r="5" fill="#EDE4D6"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#EDE4D6"/>
+  <rect width="1600" height="1000" fill="#DCD2C0"/>
+  <rect width="1600" height="1000" fill="url(#c5-grid)"/>
+
+  <!-- neighbouring buildings -->
+  <rect x="0" y="330" width="250" height="670" fill="#B49A7E"/>
+  <rect x="0" y="330" width="250" height="670" fill="url(#c5-grain)" opacity=".2"/>
+  <g fill="#2E4057">
+    <rect x="40" y="420" width="90" height="130"/>
+    <rect x="160" y="420" width="60" height="130"/>
+    <rect x="40" y="620" width="70" height="150"/>
+  </g>
+  <path d="M0 330h250" stroke="#1C1A16" stroke-width="4"/>
+  <rect x="0" y="300" width="250" height="34" fill="#8E6F52"/>
+
+  <rect x="1350" y="390" width="250" height="610" fill="#C0A585"/>
+  <rect x="1350" y="390" width="250" height="610" fill="url(#c5-grain)" opacity=".18"/>
+  <g fill="#2E4057">
+    <rect x="1390" y="470" width="70" height="120"/>
+    <rect x="1490" y="470" width="70" height="120"/>
+    <rect x="1390" y="660" width="80" height="140"/>
+  </g>
+  <path d="M1350 390h250" stroke="#1C1A16" stroke-width="4"/>
+  <rect x="1350" y="360" width="250" height="34" fill="#8E6F52"/>
+
+  <!-- main facade -->
+  <rect x="250" y="220" width="1100" height="780" fill="url(#c5-stone)"/>
+  <rect x="250" y="220" width="1100" height="780" fill="url(#c5-grain)" opacity=".14"/>
+  <rect x="220" y="190" width="1160" height="34" fill="#8E6F52"/>
+  <rect x="220" y="224" width="1160" height="12" fill="#1C1A16" opacity=".25"/>
+
+  <!-- parapet details -->
+  <g fill="#8E6F52">
+    <rect x="250" y="150" width="80" height="60"/>
+    <rect x="370" y="150" width="80" height="60"/>
+    <rect x="490" y="150" width="80" height="60"/>
+    <rect x="610" y="150" width="80" height="60"/>
+    <rect x="730" y="150" width="80" height="60"/>
+    <rect x="850" y="150" width="80" height="60"/>
+    <rect x="970" y="150" width="80" height="60"/>
+    <rect x="1090" y="150" width="80" height="60"/>
+    <rect x="1210" y="150" width="80" height="60"/>
+  </g>
+  <rect x="250" y="190" width="1100" height="30" fill="#8E6F52"/>
+
+  <!-- upper windows with shutters -->
+  <g>
+    <g transform="translate(340 300)">
+      <rect x="0" y="0" width="150" height="210" fill="#2E4057"/>
+      <rect x="14" y="14" width="122" height="182" fill="#1C1A16" opacity=".5"/>
+      <g stroke="#C9A98A" stroke-width="3" opacity=".7">
+        <path d="M14 60h122M14 120h122M14 180h122M75 14v182"/>
+      </g>
+      <rect x="-34" y="0" width="34" height="210" fill="#6E4A34"/>
+      <rect x="150" y="0" width="34" height="210" fill="#6E4A34"/>
+      <g stroke="#1C1A16" stroke-opacity=".3">
+        <path d="M-26 20h18M-26 50h18M-26 80h18M-26 110h18M-26 140h18M-26 170h18"/>
+        <path d="M158 20h18M158 50h18M158 80h18M158 110h18M158 140h18M158 170h18"/>
+      </g>
+      <rect x="-8" y="216" width="166" height="18" fill="#8E6F52"/>
+    </g>
+    <g transform="translate(690 300)">
+      <rect x="0" y="0" width="220" height="210" fill="#2E4057"/>
+      <rect x="18" y="16" width="184" height="178" fill="url(#c5-lattice)"/>
+      <rect x="-34" y="0" width="34" height="210" fill="#6E4A34"/>
+      <rect x="220" y="0" width="34" height="210" fill="#6E4A34"/>
+      <rect x="-8" y="216" width="236" height="18" fill="#8E6F52"/>
+    </g>
+    <g transform="translate(1090 300)">
+      <rect x="0" y="0" width="150" height="210" fill="#2E4057"/>
+      <rect x="14" y="14" width="122" height="182" fill="#1C1A16" opacity=".5"/>
+      <g stroke="#C9A98A" stroke-width="3" opacity=".7">
+        <path d="M14 60h122M14 120h122M14 180h122M75 14v182"/>
+      </g>
+      <rect x="-34" y="0" width="34" height="210" fill="#6E4A34"/>
+      <rect x="150" y="0" width="34" height="210" fill="#6E4A34"/>
+      <rect x="-8" y="216" width="166" height="18" fill="#8E6F52"/>
+    </g>
+  </g>
+
+  <!-- balcony -->
+  <rect x="580" y="540" width="440" height="22" fill="#6E4A34"/>
+  <rect x="580" y="562" width="440" height="90" fill="#1C1A16" opacity=".22"/>
+  <g stroke="#6E4A34" stroke-width="7">
+    <path d="M590 562v82M620 562v82M650 562v82M680 562v82M710 562v82M740 562v82M770 562v82M800 562v82M830 562v82M860 562v82M890 562v82M920 562v82M950 562v82M980 562v82M1010 562v82"/>
+  </g>
+  <path d="M580 644h440" stroke="#6E4A34" stroke-width="9"/>
+  <g fill="#4E8C8A">
+    <rect x="120" y="520" width="90" height="150"/>
+  </g>
+  <path d="M120 520h90v150h-90z" fill="none" stroke="#1C1A16" stroke-opacity=".3"/>
+
+  <!-- hanging fabrics and lanterns -->
+  <g>
+    <path d="M700 540v-40" stroke="#1C1A16" stroke-width="2"/>
+    <path d="M676 500h48l8 34h-64z" fill="#C97B5A"/>
+    <path d="M688 534v60M712 534v50" stroke="#C97B5A" stroke-width="4" opacity=".8"/>
+    <path d="M940 540v-46" stroke="#1C1A16" stroke-width="2"/>
+    <circle cx="940" cy="480" r="16" fill="#C9A66B"/>
+    <path d="M940 496v44" stroke="#C9A66B" stroke-width="3"/>
+  </g>
+
+  <!-- central door -->
+  <rect x="700" y="690" width="200" height="310" fill="#6E4A34"/>
+  <rect x="716" y="706" width="168" height="294" fill="#2E4057"/>
+  <path d="M716 706h168v294H716z" fill="none" stroke="#1C1A16" stroke-width="4"/>
+  <path d="M800 706v294" stroke="#1C1A16" stroke-width="4" opacity=".6"/>
+  <g fill="#C9A66B">
+    <circle cx="744" cy="746" r="5"/><circle cx="784" cy="746" r="5"/><circle cx="830" cy="746" r="5"/><circle cx="870" cy="746" r="5"/>
+    <circle cx="744" cy="800" r="5"/><circle cx="784" cy="800" r="5"/><circle cx="830" cy="800" r="5"/><circle cx="870" cy="800" r="5"/>
+    <circle cx="744" cy="854" r="5"/><circle cx="784" cy="854" r="5"/><circle cx="830" cy="854" r="5"/><circle cx="870" cy="854" r="5"/>
+    <circle cx="744" cy="908" r="5"/><circle cx="784" cy="908" r="5"/><circle cx="830" cy="908" r="5"/><circle cx="870" cy="908" r="5"/>
+  </g>
+  <g fill="#C9A66B" opacity=".8">
+    <rect x="728" y="728" width="58" height="8"/>
+    <rect x="816" y="728" width="58" height="8"/>
+    <rect x="728" y="950" width="58" height="8"/>
+    <rect x="816" y="950" width="58" height="8"/>
+  </g>
+  <path d="M680 1000h240v18H680z" fill="#B49A7E"/>
+  <path d="M664 1018h272v18H664z" fill="#A88C6F"/>
+  <path d="M648 1036h304v18H648z" fill="#9A7D60"/>
+
+  <!-- side door and shopfront -->
+  <g>
+    <rect x="330" y="760" width="120" height="240" fill="#6E4A34"/>
+    <rect x="344" y="774" width="92" height="226" fill="#2E4057"/>
+    <circle cx="416" cy="890" r="4" fill="#C9A66B"/>
+    <path d="M330 1000h120v18H330z" fill="#B49A7E"/>
+  </g>
+  <g>
+    <rect x="1080" y="720" width="210" height="280" fill="#1C1A16" opacity=".55"/>
+    <rect x="1094" y="734" width="182" height="266" fill="#31403B"/>
+    <g stroke="#8EA098" stroke-width="2" opacity=".4">
+      <path d="M1155 734v266M1216 734v266"/>
+    </g>
+    <rect x="1080" y="700" width="210" height="20" fill="#6E4A34"/>
+  </g>
+
+  <!-- street -->
+  <rect y="1000" width="1600" height="200" fill="#C9B492"/>
+  <path d="M0 1000h1600" stroke="#1C1A16" stroke-width="3"/>
+  <g stroke="#1C1A16" stroke-opacity=".12">
+    <path d="M0 1056h1600M0 1120h1600M0 1180h1600M200 1000v200M420 1000v200M640 1000v200M860 1000v200M1080 1000v200M1300 1000v200"/>
+  </g>
+
+  <!-- market stall -->
+  <g transform="translate(90 850)">
+    <rect x="0" y="80" width="150" height="70" fill="#C97B5A"/>
+    <path d="M0 80h150l14-30H14z" fill="#4E8C8A"/>
+    <path d="M0 80v70M150 80v70" stroke="#6E4A34" stroke-width="6"/>
+    <g fill="#C9A66B">
+      <circle cx="38" cy="112" r="12"/><circle cx="68" cy="112" r="12"/><circle cx="98" cy="112" r="12"/>
+    </g>
+  </g>
+
+  <!-- people -->
+  <g fill="#1C1A16">
+    <circle cx="520" cy="1046" r="10"/>
+    <path d="M510 1057h20l5 56h-30z"/>
+    <path d="M515 1059l-8 54M525 1059l9 54" stroke="#1C1A16" stroke-width="5"/>
+    <circle cx="565" cy="1058" r="8"/>
+    <path d="M557 1067h16l4 46h-24z"/>
+    <path d="M560 1069l-6 44M569 1069l7 44" stroke="#1C1A16" stroke-width="4"/>
+    <circle cx="1240" cy="1058" r="9"/>
+    <path d="M1231 1068h18l4 48h-26z"/>
+    <path d="M1235 1070l-6 46M1244 1070l8 46" stroke="#1C1A16" stroke-width="4.5"/>
+  </g>
+
+  <!-- potted plants -->
+  <g transform="translate(1290 860)">
+    <path d="M-30 140h60l-7 50h-46z" fill="#C97B5A"/>
+    <g fill="#4E6B4A">
+      <path d="M0 140C-8 100-30 76-58 64c8 34 24 60 58 76z"/>
+      <path d="M4 140C18 96 42 76 66 70 60 102 40 126 4 140z"/>
+      <path d="M-2 138C-16 108-14 80 0 56c14 26 16 56 2 82z" fill="#647257"/>
+    </g>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#1C1A16" stroke-width="2" fill="none" opacity=".4">
+    <path d="M420 120c8-8 15-8 22 0 7-8 14-8 21 0"/>
+    <path d="M500 90c6-6 12-6 17 0 5-6 11-6 17 0"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#1C1A16">
+    <text x="88" y="104" font-size="18" letter-spacing="4" opacity=".65">05 / ADAPTIVE REUSE</text>
+    <text x="88" y="136" font-size="15" letter-spacing="3.4" opacity=".5">OLD TOWN HOSTEL</text>
+    <text x="1512" y="1120" font-size="15" letter-spacing="3" text-anchor="end" opacity=".6">MOMBASA · 2023</text>
+    <text x="1512" y="1150" font-size="13" letter-spacing="2.6" text-anchor="end" opacity=".45">SCALE 1:100 / SHEET A-05</text>
+  </g>
+</svg>

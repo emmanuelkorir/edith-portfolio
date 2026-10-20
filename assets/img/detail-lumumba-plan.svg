@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Lumumba Courtyard House — ground floor plan</title>
+  <desc id="desc">Line drawing of the ground floor plan arranged around a planted courtyard, with room labels and a north arrow.</desc>
+  <defs>
+    <pattern id="p1-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#1C1A16" stroke-opacity=".045"/>
+    </pattern>
+    <pattern id="p1-hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0v10" stroke="#1C1A16" stroke-opacity=".25" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1000" fill="#F3EDE0"/>
+  <rect width="1400" height="1000" fill="url(#p1-grid)"/>
+  <rect x="40" y="40" width="1320" height="920" fill="none" stroke="#1C1A16" stroke-opacity=".2"/>
+
+  <!-- plan -->
+  <g transform="translate(110 120)">
+    <rect x="0" y="0" width="760" height="620" fill="#1C1A16" opacity=".05"/>
+    <g fill="none" stroke="#1C1A16" stroke-width="10">
+      <path d="M0 0h760v620H0z"/>
+    </g>
+    <g fill="none" stroke="#1C1A16" stroke-width="6">
+      <path d="M0 230h260M260 230v180M260 410H0"/>
+      <path d="M470 0v250M470 470v150M470 410h290"/>
+      <path d="M0 500h160M160 500v120M160 620v0"/>
+      <path d="M620 0v250M620 620V470"/>
+    </g>
+    <!-- courtyard -->
+    <rect x="280" y="250" width="300" height="200" fill="#CBD4C0" stroke="#1C1A16" stroke-width="6"/>
+    <g fill="#7E8B70" stroke="#4E5C45" stroke-width="3">
+      <circle cx="390" cy="350" r="44"/>
+      <circle cx="380" cy="340" r="26" fill="#96A287"/>
+      <path d="M430 440c10-30 24-52 44-64M458 446c4-26 14-46 30-58M388 446c-4-22 2-42 14-56" fill="none"/>
+    </g>
+    <rect x="300" y="270" width="70" height="40" fill="none" stroke="#1C1A16" stroke-width="2" opacity=".5"/>
+    <rect x="520" y="270" width="40" height="40" fill="none" stroke="#1C1A16" stroke-width="2" opacity=".5"/>
+    <!-- furniture -->
+    <g fill="none" stroke="#1C1A16" stroke-width="2.5" opacity=".65">
+      <rect x="40" y="60" width="150" height="70"/>
+      <rect x="60" y="140" width="70" height="40"/>
+      <rect x="300" y="60" width="110" height="60"/>
+      <rect x="500" y="60" width="80" height="80"/>
+      <rect x="60" y="280" width="120" height="70"/>
+      <rect x="60" y="440" width="80" height="40"/>
+      <rect x="520" y="500" width="100" height="60"/>
+      <circle cx="690" cy="550" r="34"/>
+      <rect x="660" y="60" width="70" height="120"/>
+      <rect x="300" y="500" width="140" height="50"/>
+      <rect x="40" y="550" width="100" height="50"/>
+    </g>
+    <!-- door swings -->
+    <g fill="none" stroke="#1C1A16" stroke-width="2" opacity=".7">
+      <path d="M260 230a70 70 0 0 1-70 70M470 250a60 60 0 0 0 60-60M470 470a50 50 0 0 0-50-50"/>
+    </g>
+    <!-- labels -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.8" fill="#1C1A16" opacity=".55">
+      <text x="52" y="100">LIVING</text>
+      <text x="52" y="320">BEDROOM 01</text>
+      <text x="52" y="480">BATH</text>
+      <text x="300" y="100">DINING</text>
+      <text x="520" y="100">KITCHEN</text>
+      <text x="672" y="120">STORE</text>
+      <text x="368" y="370" text-anchor="middle">COURTYARD</text>
+      <text x="310" y="540">STUDY</text>
+      <text x="60" y="590">ENTRY</text>
+      <text x="520" y="550">BEDROOM 02</text>
+    </g>
+    <!-- north arrow -->
+    <g transform="translate(700 0)">
+      <circle r="26" fill="none" stroke="#1C1A16" stroke-opacity=".4"/>
+      <path d="M0-20 9 10 0 4-9 10z" fill="#1C1A16" opacity=".7"/>
+      <text y="-36" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" fill="#1C1A16" opacity=".6">N</text>
+    </g>
+    <!-- scale -->
+    <g transform="translate(0 660)">
+      <path d="M0 0h300" stroke="#1C1A16" stroke-width="2"/>
+      <path d="M0-6v12M100-6v12M200-6v12M300-6v12" stroke="#1C1A16" stroke-width="2"/>
+      <text x="0" y="30" font-family="ui-monospace, monospace" font-size="12" letter-spacing="2" fill="#1C1A16" opacity=".55">0       5       10 M</text>
+    </g>
+  </g>
+
+  <!-- right panel -->
+  <g transform="translate(940 120)">
+    <text font-family="Georgia, serif" font-size="46" fill="#1C1A16">A house</text>
+    <text font-family="Georgia, serif" font-size="46" font-style="italic" fill="#B46544">around a tree.</text>
+    <text y="92" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2.6" fill="#1C1A16" opacity=".55">GROUND FLOOR / 1:100</text>
+
+    <g transform="translate(0 150)">
+      <text y="0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2" fill="#1C1A16" opacity=".5">MATERIAL KEY</text>
+      <g font-family="ui-monospace, monospace" font-size="12" fill="#1C1A16" opacity=".65">
+        <rect x="0" y="24" width="26" height="18" fill="#CBD4C0" stroke="#1C1A16" stroke-opacity=".3"/>
+        <text x="40" y="38">planted courtyard</text>
+        <rect x="0" y="58" width="26" height="18" fill="#D6C2A0" stroke="#1C1A16" stroke-opacity=".3"/>
+        <text x="40" y="72">coral-stone walls</text>
+        <rect x="0" y="92" width="26" height="18" fill="#B46544" stroke="#1C1A16" stroke-opacity=".3"/>
+        <text x="40" y="106">timber screens</text>
+        <rect x="0" y="126" width="26" height="18" fill="none" stroke="#1C1A16" stroke-opacity=".3" stroke-dasharray="3 3"/>
+        <text x="40" y="140">future extension</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 350)">
+      <path d="M0 0v140M20 0v140" stroke="#1C1A16" stroke-opacity=".2"/>
+      <text x="40" y="24" font-family="Georgia, serif" font-size="32" fill="#1C1A16">“</text>
+      <text x="40" y="58" font-family="Georgia, serif" font-size="21" fill="#1C1A16" opacity=".8">The courtyard is the</text>
+      <text x="40" y="86" font-family="Georgia, serif" font-size="21" fill="#1C1A16" opacity=".8">first room of the house.</text>
+      <text x="40" y="128" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2" fill="#1C1A16" opacity=".5">PASSIVE COOLING / STACK VENTILATION</text>
+    </g>
+  </g>
+
+  <!-- title block -->
+  <path d="M40 910h1320" stroke="#1C1A16" stroke-opacity=".4"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2" fill="#1C1A16" opacity=".6">
+    <text x="60" y="948">LUMUMBA COURTYARD HOUSE</text>
+    <text x="60" y="972">NAIROBI, KENYA</text>
+    <text x="620" y="948">DRAWING A-101</text>
+    <text x="620" y="972">SCALE 1:100</text>
+    <text x="1060" y="948">EDITH NDUTA KURIA</text>
+    <text x="1060" y="972">2025</text>
+  </g>
+</svg>

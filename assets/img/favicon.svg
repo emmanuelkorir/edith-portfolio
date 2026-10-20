@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Edith Nduta Kuria monogram</title>
+  <rect width="64" height="64" fill="#1C1A16"/>
+  <path d="M16 50V32a16 16 0 0 1 32 0v18" fill="none" stroke="#EDE6D7" stroke-width="4"/>
+  <path d="M16 50h32" stroke="#EDE6D7" stroke-width="4"/>
+  <circle cx="48" cy="17" r="5" fill="#B46544"/>
+</svg>

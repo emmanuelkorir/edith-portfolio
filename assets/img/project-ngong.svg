@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Ngong Road Adaptive Reuse</title>
+  <desc id="desc">A former warehouse with a sawtooth roof and brick walls, opened up with a new timber-framed workshop and public arcade.</desc>
+  <defs>
+    <pattern id="c3-grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1C1A16" stroke-opacity=".05"/>
+    </pattern>
+    <pattern id="c3-brick" width="64" height="34" patternUnits="userSpaceOnUse">
+      <rect width="64" height="34" fill="#A5553C"/>
+      <path d="M0 17h64M32 0v17M0 17v17M64 17v17" stroke="#E8DCC7" stroke-opacity=".16" stroke-width="2"/>
+    </pattern>
+    <pattern id="c3-grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".6" fill="#1C1A16" opacity=".3"/>
+      <circle cx="5" cy="5.5" r=".5" fill="#1C1A16" opacity=".18"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#E9E1D2"/>
+  <rect width="1600" height="940" fill="#DED4C1"/>
+  <rect width="1600" height="940" fill="url(#c3-grid)"/>
+  <circle cx="250" cy="190" r="102" fill="#D3B77F" opacity=".8"/>
+
+  <!-- existing warehouse mass -->
+  <rect x="200" y="300" width="1200" height="640" fill="url(#c3-brick)"/>
+  <rect x="200" y="300" width="1200" height="640" fill="url(#c3-grain)" opacity=".16"/>
+  <rect x="170" y="278" width="1260" height="26" fill="#1C1A16"/>
+
+  <!-- sawtooth roof -->
+  <g>
+    <path d="M200 300 350 190l150 110zM500 300 650 190l150 110zM800 300 950 190l150 110zM1100 300 1250 190l150 110z" fill="#4A504C"/>
+    <path d="M200 300 350 190v110zM500 300 650 190v110zM800 300 950 190v110zM1100 300 1250 190v110z" fill="#646B66"/>
+    <g stroke="#1C1A16" stroke-opacity=".35">
+      <path d="M350 190v110M650 190v110M950 190v110M1250 190v110M200 300h1200"/>
+    </g>
+    <g fill="#D9CBAE" opacity=".6">
+      <path d="M350 194v102h-90zM650 194v102h-90zM950 194v102h-90zM1250 194v102h-90z"/>
+    </g>
+  </g>
+
+  <!-- ghost sign -->
+  <g font-family="Georgia, serif" fill="#E8DCC7" opacity=".28">
+    <text x="260" y="430" font-size="86" letter-spacing="10">NGONG</text>
+    <text x="260" y="500" font-size="32" letter-spacing="16">TRADING CO.</text>
+  </g>
+
+  <!-- big opening with new insertion -->
+  <rect x="610" y="470" width="660" height="470" fill="#2E2B25"/>
+  <rect x="610" y="470" width="660" height="470" fill="url(#c3-grain)" opacity=".2"/>
+  <!-- timber frame -->
+  <g fill="#C08A3E">
+    <rect x="640" y="500" width="26" height="440"/>
+    <rect x="846" y="500" width="26" height="440"/>
+    <rect x="1052" y="500" width="26" height="440"/>
+    <rect x="1236" y="500" width="26" height="440"/>
+    <rect x="640" y="500" width="622" height="26"/>
+    <rect x="640" y="700" width="622" height="20"/>
+    <rect x="640" y="900" width="622" height="20"/>
+  </g>
+  <!-- glazing -->
+  <g fill="#C9A66B" opacity=".35">
+    <rect x="666" y="526" width="180" height="174"/>
+    <rect x="872" y="526" width="180" height="174"/>
+    <rect x="1078" y="526" width="158" height="174"/>
+    <rect x="666" y="720" width="180" height="180"/>
+    <rect x="872" y="720" width="180" height="180"/>
+    <rect x="1078" y="720" width="158" height="180"/>
+  </g>
+  <g stroke="#2E2B25" stroke-width="4" opacity=".65">
+    <path d="M756 526v174M962 526v174M1166 526v174M756 720v180M962 720v180M1166 720v180"/>
+    <path d="M666 613h180M872 613h180M1078 613h158M666 810h180M872 810h180M1078 810h158"/>
+  </g>
+  <!-- interior people and furniture -->
+  <g fill="#1C1A16">
+    <circle cx="720" cy="780" r="10"/>
+    <path d="M710 791h20l4 46h-28z"/>
+    <circle cx="900" cy="764" r="9"/>
+    <path d="M891 774h18l4 38h-26z"/>
+    <circle cx="1110" cy="786" r="9"/>
+    <path d="M1101 796h18l4 40h-26z"/>
+  </g>
+  <g fill="#C08A3E" opacity=".8">
+    <rect x="680" y="842" width="120" height="12"/>
+    <rect x="880" y="830" width="110" height="10"/>
+    <rect x="1090" y="842" width="120" height="12"/>
+  </g>
+
+  <!-- new canopy over arcade -->
+  <path d="M560 470h740l-30-36H590z" fill="#1C1A16"/>
+  <rect x="560" y="470" width="740" height="12" fill="#8F6A35"/>
+
+  <!-- steel columns -->
+  <g fill="#3C423F">
+    <rect x="560" y="470" width="24" height="470"/>
+    <rect x="1290" y="470" width="24" height="470"/>
+  </g>
+  <g stroke="#1C1A16" stroke-width="4" opacity=".45">
+    <path d="M560 500h24M560 560h24M560 620h24M1290 500h24M1290 560h24M1290 620h24"/>
+  </g>
+
+  <!-- arcade interior side -->
+  <rect x="1314" y="604" width="86" height="336" fill="#2E2B25"/>
+  <g stroke="#C9A66B" stroke-width="3" opacity=".5">
+    <path d="M1332 610v330M1356 610v330M1380 610v330"/>
+  </g>
+
+  <!-- foreground plaza -->
+  <rect y="940" width="1600" height="260" fill="#CBB795"/>
+  <path d="M0 940h1600" stroke="#1C1A16" stroke-width="3"/>
+  <g stroke="#1C1A16" stroke-opacity=".12">
+    <path d="M0 1000h1600M0 1068h1600M0 1136h1600M160 940v260M360 940v260M560 940v260M760 940v260M960 940v260M1160 940v260M1360 940v260"/>
+  </g>
+
+  <!-- steps -->
+  <path d="M560 940h760v22H560z" fill="#B9A37F"/>
+  <path d="M590 962h700v20H590z" fill="#A88F68"/>
+
+  <!-- trees and benches -->
+  <g transform="translate(180 850)">
+    <path d="M10 90c6-50 6-90 0-130" stroke="#4B3E2C" stroke-width="12" fill="none"/>
+    <g fill="#5C6B51">
+      <circle cx="-30" cy="-50" r="48"/>
+      <circle cx="34" cy="-64" r="42"/>
+      <circle cx="10" cy="-106" r="34"/>
+    </g>
+    <g fill="#6E7D5D">
+      <circle cx="-10" cy="-70" r="30"/>
+      <circle cx="26" cy="-94" r="22"/>
+    </g>
+  </g>
+  <g transform="translate(1440 870)">
+    <path d="M0 70c4-36 4-66 0-98" stroke="#4B3E2C" stroke-width="9" fill="none"/>
+    <g fill="#55654A">
+      <circle cx="-22" cy="-30" r="34"/>
+      <circle cx="22" cy="-44" r="30"/>
+      <circle cx="2" cy="-74" r="24"/>
+    </g>
+  </g>
+
+  <g fill="#C08A3E">
+    <rect x="300" y="1000" width="180" height="12"/>
+    <rect x="310" y="1012" width="10" height="28"/>
+    <rect x="460" y="1012" width="10" height="28"/>
+    <rect x="1060" y="1040" width="150" height="10"/>
+    <rect x="1070" y="1050" width="8" height="24"/>
+    <rect x="1192" y="1050" width="8" height="24"/>
+  </g>
+  <g fill="#1C1A16">
+    <circle cx="356" cy="972" r="8"/>
+    <path d="M348 981h16l3 30h-22z"/>
+    <circle cx="392" cy="982" r="7"/>
+    <path d="M385 991h14l3 20h-20z"/>
+    <circle cx="1128" cy="1018" r="8"/>
+    <path d="M1120 1027h16l3 24h-22z"/>
+  </g>
+
+  <!-- bike -->
+  <g transform="translate(760 1018)" stroke="#1C1A16" stroke-width="3" fill="none">
+    <circle cx="0" cy="26" r="26"/><circle cx="86" cy="26" r="26"/>
+    <path d="M0 26l22-34h30l34 34M22-8h22M52-8l16 34M22-8l14 34"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#1C1A16">
+    <text x="88" y="104" font-size="18" letter-spacing="4" opacity=".65">03 / ADAPTIVE REUSE</text>
+    <text x="88" y="136" font-size="15" letter-spacing="3.4" opacity=".5">NGONG ROAD WORKSHOPS</text>
+    <text x="1512" y="1120" font-size="15" letter-spacing="3" text-anchor="end" opacity=".6">NAIROBI · 2024</text>
+    <text x="1512" y="1150" font-size="13" letter-spacing="2.6" text-anchor="end" opacity=".45">SCALE 1:200 / SHEET A-06</text>
+  </g>
+  <g stroke="#1C1A16" stroke-opacity=".4">
+    <path d="M1248 470v-18M1248 300v-18M1248 288h0"/>
+  </g>
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Lakefront Reading Room</title>
+  <desc id="desc">A long, low reading pavilion with a deep roof on a timber pier over Lake Victoria, framed by reeds and distant hills.</desc>
+  <defs>
+    <pattern id="c2-grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1C1A16" stroke-opacity=".05"/>
+    </pattern>
+    <pattern id="c2-grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".6" fill="#1C1A16" opacity=".28"/>
+      <circle cx="5" cy="5.5" r=".5" fill="#1C1A16" opacity=".16"/>
+    </pattern>
+    <pattern id="c2-water" width="180" height="34" patternUnits="userSpaceOnUse">
+      <path d="M0 17h40M70 17h26M120 17h44" stroke="#F1EADB" stroke-opacity=".4" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#E7E0D1"/>
+  <rect width="1600" height="760" fill="#DCD5C5"/>
+  <rect width="1600" height="760" fill="url(#c2-grid)"/>
+  <circle cx="330" cy="214" r="118" fill="#D3B77F" opacity=".85"/>
+
+  <!-- hills -->
+  <path d="M0 670c130-80 240-88 340-40s180 44 270 4 190-52 300-18 240 30 360-18 210-36 330-6v128H0z" fill="#8A9A8C" opacity=".6"/>
+  <path d="M0 708c160-54 270-44 390 0s230 32 350-8 250-28 380 4 280 20 480-28v86H0z" fill="#728578" opacity=".55"/>
+
+  <!-- water -->
+  <rect y="748" width="1600" height="452" fill="#9FB4AF"/>
+  <rect y="748" width="1600" height="452" fill="url(#c2-water)" opacity=".65"/>
+  <g stroke="#F1EADB" stroke-opacity=".35" stroke-width="2">
+    <path d="M180 800h120M420 830h80M1180 812h150M1320 864h90M240 912h180M1220 948h160M300 1020h120M1080 1036h140"/>
+  </g>
+
+  <!-- pavilion deck -->
+  <rect x="250" y="806" width="1100" height="40" fill="#B79B6E"/>
+  <rect x="250" y="846" width="1100" height="150" fill="#8B7350"/>
+  <g stroke="#1C1A16" stroke-opacity=".2">
+    <path d="M340 846v150M430 846v150M520 846v150M610 846v150M700 846v150M790 846v150M880 846v150M970 846v150M1060 846v150M1150 846v150M1240 846v150"/>
+  </g>
+  <g stroke="#4D3F2C" stroke-width="10">
+    <path d="M300 806v128M420 806v128M1180 806v128M1300 806v128"/>
+  </g>
+
+  <!-- pavilion interior -->
+  <rect x="340" y="510" width="920" height="296" fill="#2F4A46"/>
+  <rect x="340" y="510" width="920" height="296" fill="url(#c2-grain)" opacity=".18"/>
+  <rect x="370" y="560" width="860" height="246" fill="#2A3F3B"/>
+  <g fill="#C9A66B" opacity=".85">
+    <rect x="380" y="590" width="860" height="16"/>
+  </g>
+  <g fill="#E8D7AF" opacity=".75">
+    <rect x="420" y="640" width="250" height="10"/>
+    <rect x="420" y="674" width="170" height="10"/>
+    <rect x="810" y="640" width="210" height="10"/>
+  </g>
+
+  <!-- bookshelves -->
+  <g fill="#C9A66B" opacity=".7">
+    <rect x="390" y="700" width="250" height="14"/>
+    <rect x="390" y="748" width="250" height="14"/>
+    <rect x="900" y="700" width="300" height="14"/>
+    <rect x="900" y="748" width="300" height="14"/>
+  </g>
+  <g fill="#D8C8A8" opacity=".55">
+    <rect x="400" y="664" width="10" height="34"/><rect x="416" y="672" width="8" height="26"/>
+    <rect x="430" y="660" width="12" height="38"/><rect x="448" y="670" width="9" height="28"/>
+    <rect x="464" y="664" width="11" height="34"/><rect x="482" y="672" width="8" height="26"/>
+    <rect x="940" y="664" width="10" height="34"/><rect x="956" y="670" width="9" height="28"/>
+    <rect x="972" y="660" width="12" height="38"/><rect x="990" y="672" width="8" height="26"/>
+    <rect x="1004" y="664" width="11" height="34"/>
+  </g>
+
+  <!-- glazing mullions -->
+  <g stroke="#1C1A16" stroke-width="3" opacity=".55">
+    <path d="M340 510v296M570 510v296M800 510v296M1030 510v296M1260 510v296"/>
+    <path d="M340 547h920"/>
+  </g>
+
+  <!-- roof -->
+  <path d="M240 510h1160l-28-58H272z" fill="#1C1A16"/>
+  <rect x="240" y="510" width="1160" height="20" fill="#3C3830"/>
+  <rect x="240" y="510" width="1160" height="5" fill="#C9A66B" opacity=".6"/>
+  <path d="M240 530h1160" stroke="#1C1A16" stroke-width="3"/>
+  <!-- thin columns -->
+  <g stroke="#1C1A16" stroke-width="5">
+    <path d="M350 530v276M466 530v276M582 530v276M698 530v276M814 530v276M930 530v276M1046 530v276M1162 530v276M1246 530v276"/>
+  </g>
+
+  <!-- interior people -->
+  <g fill="#1C1A16">
+    <circle cx="500" cy="770" r="9"/>
+    <path d="M491 780h18l4 26h-26z"/>
+    <circle cx="720" cy="764" r="8"/>
+    <path d="M712 773h16l3 33h-22z"/>
+    <circle cx="980" cy="772" r="8"/>
+    <path d="M972 781h16l3 25h-22z"/>
+  </g>
+  <g>
+    <rect x="520" y="790" width="90" height="10" fill="#C9A66B" opacity=".65"/>
+    <rect x="740" y="792" width="74" height="8" fill="#C9A66B" opacity=".55"/>
+    <rect x="996" y="792" width="60" height="8" fill="#C9A66B" opacity=".55"/>
+  </g>
+
+  <!-- deck foreground -->
+  <rect x="250" y="1020" width="1100" height="60" fill="#A78A5F"/>
+  <path d="M250 1020h1100" stroke="#1C1A16" stroke-width="2" opacity=".35"/>
+  <g stroke="#1C1A16" stroke-opacity=".18">
+    <path d="M300 1020v60M390 1020v60M480 1020v60M570 1020v60M660 1020v60M750 1020v60M840 1020v60M930 1020v60M1020 1020v60M1110 1020v60M1200 1020v60M1290 1020v60"/>
+  </g>
+
+  <!-- reeds -->
+  <g stroke="#5E6C4A" stroke-width="4" fill="none">
+    <path d="M60 1200c12-150 22-260 44-360M92 1200c6-140 2-250-12-344M128 1200c18-130 36-230 66-320M160 1200c-2-128-12-224-34-312M1300 1200c14-120 34-218 62-300M1340 1200c0-120-8-214-28-296M1380 1200c22-110 46-196 78-270M1420 1200c-2-106-12-190-32-264M1480 1200c16-100 34-184 60-252M1520 1200c0-94-10-172-28-238"/>
+  </g>
+  <g fill="#7A6A3F">
+    <ellipse cx="104" cy="838" rx="9" ry="26" transform="rotate(8 104 838)"/>
+    <ellipse cx="116" cy="856" rx="8" ry="24" transform="rotate(-8 116 856)"/>
+    <ellipse cx="1360" cy="902" rx="9" ry="26" transform="rotate(6 1360 902)"/>
+    <ellipse cx="1372" cy="922" rx="8" ry="24" transform="rotate(-6 1372 922)"/>
+    <ellipse cx="1536" cy="952" rx="8" ry="22" transform="rotate(10 1536 952)"/>
+  </g>
+
+  <!-- canoe -->
+  <g transform="translate(1120 1040)">
+    <path d="M0 20c40 28 180 28 220 0-30 34-190 34-220 0z" fill="#4B3E2C"/>
+    <path d="M20 22c30 12 150 12 180 0" stroke="#C9A66B" stroke-width="2" opacity=".65" fill="none"/>
+    <path d="M96 8v-24" stroke="#4B3E2C" stroke-width="3"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#1C1A16" stroke-width="2.5" fill="none" opacity=".5">
+    <path d="M710 230c10-10 18-10 26 0 8-10 16-10 26 0"/>
+    <path d="M790 196c8-8 15-8 22 0 7-8 14-8 21 0"/>
+    <path d="M860 250c6-6 12-6 17 0 5-6 11-6 17 0"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#1C1A16">
+    <text x="88" y="104" font-size="18" letter-spacing="4" opacity=".65">02 / CIVIC</text>
+    <text x="88" y="136" font-size="15" letter-spacing="3.4" opacity=".5">LAKEFRONT READING ROOM</text>
+    <text x="1512" y="1120" font-size="15" letter-spacing="3" text-anchor="end" opacity=".6">KISUMU · 2024</text>
+    <text x="1512" y="1150" font-size="13" letter-spacing="2.6" text-anchor="end" opacity=".45">SCALE 1:200 / SHEET A-04</text>
+  </g>
+</svg>

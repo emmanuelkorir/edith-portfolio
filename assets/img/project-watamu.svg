@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Watamu Beach House</title>
+  <desc id="desc">An elevated timber beach house on stilts above a dune, with deep eaves, a wide deck and coconut palms framing the Indian Ocean.</desc>
+  <defs>
+    <pattern id="c4-grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1C1A16" stroke-opacity=".048"/>
+    </pattern>
+    <pattern id="c4-grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".6" fill="#1C1A16" opacity=".28"/>
+      <circle cx="5" cy="5.5" r=".5" fill="#1C1A16" opacity=".16"/>
+    </pattern>
+    <pattern id="c4-sea" width="220" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h54M90 20h36M150 20h50" stroke="#F1EADB" stroke-opacity=".38" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1200" fill="#F1E8D8"/>
+  <rect width="1600" height="690" fill="#E7DCC7"/>
+  <rect width="1600" height="690" fill="url(#c4-grid)"/>
+  <circle cx="1260" cy="210" r="120" fill="#D89A6C" opacity=".9"/>
+
+  <!-- sea -->
+  <rect y="610" width="1600" height="250" fill="#7FA7A3"/>
+  <rect y="610" width="1600" height="250" fill="url(#c4-sea)" opacity=".7"/>
+  <path d="M0 610h1600" stroke="#1C1A16" stroke-opacity=".18"/>
+  <g fill="#4E7A78" opacity=".35">
+    <path d="M0 700c160-20 300-10 430 6s260 8 390-8 280-14 420 4 240 10 360-4v52H0z"/>
+  </g>
+
+  <!-- beach -->
+  <path d="M0 820c220-44 390-30 560 6s330 36 520-2 330-34 520 10v366H0z" fill="#E3CFAD"/>
+  <path d="M0 850c240-30 410-16 580 14s340 28 520-8 300-32 500 6v20c-200-38-330-24-500 10s-350 22-520-10-340-42-580-10z" fill="#D8C09A" opacity=".7"/>
+
+  <!-- dune grass -->
+  <g stroke="#6E7B5A" stroke-width="4" fill="none">
+    <path d="M40 1200c10-100 18-172 40-236M80 1200c-2-96-14-168-36-228M120 1200c20-84 44-150 76-206M160 1200c-10-80-26-142-52-198M260 1200c14-72 34-128 62-178"/>
+    <path d="M1220 1200c8-76 20-134 42-184M1260 1200c-2-70-10-124-28-170M1300 1200c18-66 38-120 66-166M1340 1200c-8-62-22-112-42-154"/>
+  </g>
+
+  <!-- house stilts and deck -->
+  <g fill="#4B3E2C">
+    <rect x="520" y="806" width="20" height="220"/>
+    <rect x="690" y="806" width="20" height="220"/>
+    <rect x="870" y="806" width="20" height="220"/>
+    <rect x="1040" y="806" width="20" height="220"/>
+    <rect x="1200" y="806" width="20" height="220"/>
+  </g>
+  <g stroke="#1C1A16" stroke-width="3" opacity=".25">
+    <path d="M500 1026h740" />
+  </g>
+  <rect x="480" y="790" width="780" height="28" fill="#B98A5C"/>
+  <rect x="480" y="818" width="780" height="18" fill="#8F6743"/>
+  <g stroke="#1C1A16" stroke-opacity=".18">
+    <path d="M560 790v28M640 790v28M720 790v28M800 790v28M880 790v28M960 790v28M1040 790v28M1120 790v28M1200 790v28"/>
+  </g>
+
+  <!-- lower level -->
+  <rect x="520" y="640" width="700" height="150" fill="#7E5A3B"/>
+  <rect x="520" y="640" width="700" height="150" fill="url(#c4-grain)" opacity=".22"/>
+  <g stroke="#1C1A16" stroke-width="3" opacity=".3">
+    <path d="M520 690h700M520 740h700"/>
+  </g>
+  <g fill="#2F2B24">
+    <rect x="560" y="666" width="120" height="124"/>
+    <rect x="760" y="666" width="180" height="124"/>
+    <rect x="1020" y="666" width="150" height="124"/>
+  </g>
+  <g fill="#C97B5A" opacity=".45">
+    <rect x="760" y="666" width="180" height="124"/>
+  </g>
+  <g stroke="#E3CFAD" stroke-width="3" opacity=".4">
+    <path d="M820 666v124M880 666v124M1020 666v124M1095 666v124"/>
+  </g>
+
+  <!-- upper level -->
+  <rect x="560" y="430" width="620" height="210" fill="#C08A5E"/>
+  <rect x="560" y="430" width="620" height="210" fill="url(#c4-grain)" opacity=".16"/>
+  <g stroke="#1C1A16" stroke-width="2" opacity=".25">
+    <path d="M560 474h620M560 518h620M560 562h620M560 606h620"/>
+  </g>
+  <!-- timber slat screen -->
+  <g fill="#7E5A3B">
+    <rect x="580" y="450" width="130" height="170"/>
+    <rect x="1030" y="450" width="120" height="170"/>
+  </g>
+  <g stroke="#E3CFAD" stroke-width="3" opacity=".35">
+    <path d="M600 454v162M620 454v162M640 454v162M660 454v162M680 454v162M700 454v162M1048 454v162M1068 454v162M1088 454v162M1108 454v162M1128 454v162"/>
+  </g>
+  <!-- glazing -->
+  <g fill="#31403B">
+    <rect x="730" y="450" width="280" height="170"/>
+  </g>
+  <g stroke="#D8C09A" stroke-width="3" opacity=".45">
+    <path d="M800 450v170M870 450v170M940 450v170M730 535h280"/>
+  </g>
+  <rect x="730" y="450" width="280" height="170" fill="#C97B5A" opacity=".16"/>
+
+  <!-- roof -->
+  <path d="M510 430h720l-44-58H554z" fill="#3E352A"/>
+  <path d="M510 430h720l-10 18H520z" fill="#1C1A16"/>
+  <g stroke="#1C1A16" stroke-width="2" opacity=".25">
+    <path d="M554 372h632M560 390h620"/>
+  </g>
+
+  <!-- deck rails -->
+  <g stroke="#4B3E2C" stroke-width="4">
+    <path d="M480 790v-54M1260 790v-54M480 736h780M500 764h740"/>
+  </g>
+  <g stroke="#4B3E2C" stroke-width="3" opacity=".8">
+    <path d="M560 736v54M640 736v54M720 736v54M800 736v54M880 736v54M960 736v54M1040 736v54M1120 736v54M1200 736v54"/>
+  </g>
+
+  <!-- stairs -->
+  <g fill="#B98A5C" stroke="#1C1A16" stroke-opacity=".25">
+    <path d="M1110 790h120v22h-120z"/>
+    <path d="M1140 812h120v22h-120z"/>
+    <path d="M1170 834h120v22h-120z"/>
+    <path d="M1200 856h120v22h-120z"/>
+    <path d="M1230 878h120v22h-120z"/>
+    <path d="M1260 900h120v22h-120z"/>
+  </g>
+  <g stroke="#4B3E2C" stroke-width="4">
+    <path d="M1100 790l150 132M1220 790l150 132"/>
+  </g>
+
+  <!-- palms -->
+  <g transform="translate(260 300)">
+    <path d="M30 900C52 650 68 460 44 270" stroke="#5B4930" stroke-width="24" fill="none"/>
+    <path d="M44 300c-30-54-76-80-122-90M46 286c6-64-10-112-44-152M48 316c46-40 96-52 146-46M46 338c54 18 94 50 120 96M40 318c-46 22-78 56-94 102" stroke="#3F5339" stroke-width="18" fill="none"/>
+    <g fill="#4E6B4A">
+      <path d="M44 300c-40-62-92-86-144-90 30 42 74 74 144 90z"/>
+      <path d="M46 286c-4-66-26-112-66-148 8 62 24 112 66 148z"/>
+      <path d="M48 316c50-46 104-58 164-48-40 38-92 56-164 48z"/>
+      <path d="M46 338c58 20 102 54 128 104-62-10-108-38-128-104z"/>
+      <path d="M40 318c-50 26-84 62-98 112 54-18 88-52 98-112z"/>
+    </g>
+    <g stroke="#1C1A16" stroke-opacity=".14" stroke-width="2">
+      <path d="M44 300c-40-62-92-86-144-90M46 286c-4-66-26-112-66-148M48 316c50-46 104-58 164-48M46 338c58 20 102 54 128 104"/>
+    </g>
+    <g fill="#3F5339">
+      <circle cx="48" cy="330" r="12"/><circle cx="30" cy="326" r="9"/><circle cx="64" cy="324" r="8"/>
+    </g>
+  </g>
+
+  <g transform="translate(1440 660)">
+    <path d="M0 540C-12 380-8 260-34 150" stroke="#5B4930" stroke-width="18" fill="none"/>
+    <g fill="#4E6B4A">
+      <path d="M-34 160c-44-30-84-32-120-12 34 26 74 32 120 12z"/>
+      <path d="M-30 148c-8-44-34-74-72-88 12 42 36 72 72 88z"/>
+      <path d="M-28 158c40-30 84-34 124-12-36 26-78 30-124 12z"/>
+      <path d="M-30 170c34 16 58 44 68 84-38-12-62-38-68-84z"/>
+    </g>
+  </g>
+
+  <!-- plants -->
+  <g fill="#5D6B50">
+    <path d="M960 1018c-16-36-10-68 14-96 12 34 6 66-14 96z"/>
+    <path d="M990 1018c-6-28 2-50 22-68 4 28-4 52-22 68z"/>
+    <path d="M936 1018c-10-24-4-44 10-60 4 24 0 42-10 60z"/>
+  </g>
+
+  <!-- people on deck -->
+  <g fill="#1C1A16">
+    <circle cx="700" cy="704" r="9"/>
+    <path d="M691 714h18l4 46h-26z"/>
+    <circle cx="742" cy="716" r="7"/>
+    <path d="M735 724h14l3 30h-20z"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#1C1A16" stroke-width="2.5" fill="none" opacity=".45">
+    <path d="M900 190c8-8 15-8 22 0 7-8 14-8 21 0"/>
+    <path d="M980 158c6-6 12-6 17 0 5-6 11-6 17 0"/>
+    <path d="M1060 214c6-6 11-6 16 0 5-6 10-6 15 0"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#1C1A16">
+    <text x="88" y="104" font-size="18" letter-spacing="4" opacity=".65">04 / RESIDENTIAL</text>
+    <text x="88" y="136" font-size="15" letter-spacing="3.4" opacity=".5">WATAMU BEACH HOUSE</text>
+    <text x="1512" y="1120" font-size="15" letter-spacing="3" text-anchor="end" opacity=".6">KILIFI · 2024</text>
+    <text x="1512" y="1150" font-size="13" letter-spacing="2.6" text-anchor="end" opacity=".45">SCALE 1:150 / SHEET A-03</text>
+  </g>
+</svg>

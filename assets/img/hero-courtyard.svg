@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Courtyard house study, Nairobi</title>
+  <desc id="desc">An illustrated elevation of a modern courtyard house with a deep veranda, breeze-block screen, planting and a warm terracotta sun.</desc>
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#1C1A16" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <pattern id="breeze" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect width="48" height="48" fill="#6E7B63"/>
+      <circle cx="24" cy="24" r="11" fill="#E9E2D3"/>
+      <path d="M24 0v10M24 38v10M0 24h10M38 24h10" stroke="#E9E2D3" stroke-width="7"/>
+    </pattern>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".65" fill="#1C1A16" opacity=".35"/>
+      <circle cx="5" cy="5.5" r=".5" fill="#1C1A16" opacity=".2"/>
+    </pattern>
+    <clipPath id="arch">
+      <path d="M417 1134V931a63 63 0 0 1 126 0v203z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#E9E2D3"/>
+  <rect width="1200" height="1126" fill="#E3DBCA"/>
+  <rect width="1200" height="1126" fill="url(#grid)"/>
+
+  <!-- sun and horizon -->
+  <circle cx="938" cy="292" r="168" fill="#BC6644"/>
+  <circle cx="938" cy="292" r="168" fill="none" stroke="#1C1A16" stroke-opacity=".12"/>
+  <path d="M0 1052h1200" stroke="#1C1A16" stroke-opacity=".18"/>
+
+  <!-- distant landscape -->
+  <path d="M0 1030c120-38 210-26 300-6s180 12 280-6 220-8 320 8 190 14 300-4v130H0z" fill="#B9C0A9" opacity=".75"/>
+  <path d="M0 1070c150-22 250-4 370 8s250 4 380-10 250-6 450 12v90H0z" fill="#A8B198" opacity=".55"/>
+
+  <!-- upper volume -->
+  <rect x="112" y="424" width="548" height="424" fill="#D8C6A6"/>
+  <rect x="112" y="424" width="548" height="424" fill="url(#grain)" opacity=".16"/>
+  <rect x="86" y="394" width="600" height="30" fill="#1C1A16"/>
+  <rect x="86" y="424" width="600" height="12" fill="#B7A280"/>
+  <rect x="112" y="424" width="26" height="424" fill="#CDB894"/>
+
+  <!-- louvred windows -->
+  <g>
+    <rect x="176" y="508" width="112" height="222" fill="#2F2C25"/>
+    <rect x="310" y="508" width="112" height="222" fill="#2F2C25"/>
+    <rect x="444" y="508" width="112" height="222" fill="#2F2C25"/>
+    <g stroke="#D8C6A6" stroke-width="3" opacity=".55">
+      <path d="M176 536h112M176 562h112M176 588h112M176 614h112M176 640h112M176 666h112M176 692h112M176 718h112"/>
+      <path d="M310 536h112M310 562h112M310 588h112M310 614h112M310 640h112M310 666h112M310 692h112M310 718h112"/>
+      <path d="M444 536h112M444 562h112M444 588h112M444 614h112M444 640h112M444 666h112M444 692h112M444 718h112"/>
+    </g>
+    <rect x="444" y="508" width="112" height="222" fill="#C58C53" opacity=".35"/>
+    <path d="M500 508v222M444 619h112" stroke="#1C1A16" stroke-width="2" opacity=".4"/>
+  </g>
+
+  <!-- lower volume and veranda -->
+  <rect x="112" y="848" width="548" height="282" fill="#EFE7D7"/>
+  <rect x="112" y="848" width="212" height="282" fill="#332F27"/>
+  <path d="M324 848h12v282h-12z" fill="#1C1A16" opacity=".35"/>
+  <rect x="112" y="848" width="212" height="282" fill="url(#grain)" opacity=".22"/>
+  <rect x="148" y="890" width="140" height="196" fill="#C69157"/>
+  <path d="M148 890h140v196H148z" fill="none" stroke="#1C1A16" stroke-width="2" opacity=".28"/>
+  <path d="M148 986h140M218 890v196" stroke="#1C1A16" stroke-width="1.5" opacity=".22"/>
+
+  <!-- arch -->
+  <path d="M417 1134V931a63 63 0 0 1 126 0v203z" fill="#B77F4C"/>
+  <g clip-path="url(#arch)">
+    <rect x="417" y="1020" width="126" height="114" fill="#8C5D37"/>
+    <circle cx="500" cy="1048" r="9" fill="#1C1A16" opacity=".65"/>
+    <path d="M462 1134v-46a38 38 0 0 1 76 0v46z" fill="#1C1A16" opacity=".3"/>
+  </g>
+  <path d="M417 1134V931a63 63 0 0 1 126 0v203" fill="none" stroke="#1C1A16" stroke-width="3"/>
+  <path d="M409 1134h142" stroke="#1C1A16" stroke-width="4"/>
+
+  <!-- breeze-block screen volume -->
+  <rect x="704" y="620" width="392" height="510" fill="#6E7B63"/>
+  <rect x="704" y="620" width="392" height="510" fill="url(#breeze)"/>
+  <rect x="680" y="588" width="440" height="32" fill="#1C1A16"/>
+  <rect x="680" y="620" width="24" height="510" fill="#55614D"/>
+  <g stroke="#1C1A16" stroke-width="3" opacity=".55">
+    <path d="M704 668h392M704 764h392M704 860h392M704 956h392M704 1052h392"/>
+  </g>
+  <rect x="704" y="1010" width="392" height="120" fill="#31403B"/>
+  <g stroke="#8EA098" stroke-width="2" opacity=".55">
+    <path d="M786 1010v120M868 1010v120M950 1010v120M1032 1010v120"/>
+  </g>
+  <path d="M704 1010h392" stroke="#1C1A16" stroke-width="3"/>
+
+  <!-- terrace -->
+  <rect y="1130" width="1200" height="216" fill="#CCB896"/>
+  <path d="M0 1130h1200" stroke="#1C1A16" stroke-width="3"/>
+  <g stroke="#1C1A16" stroke-opacity=".14" stroke-width="1.5">
+    <path d="M0 1182h1200M0 1254h1200M92 1130v216M262 1130v216M432 1130v216M602 1130v216M772 1130v216M942 1130v216M1112 1130v216"/>
+  </g>
+  <path d="M300 1130h596v22H300z" fill="#BFA985"/>
+
+  <!-- planting -->
+  <g>
+    <path d="M70 1128c0-84 22-146 56-188 28 51 36 116 30 188z" fill="#465440"/>
+    <path d="M104 1128c-8-92 0-160 22-206 38 56 52 130 46 206z" fill="#5C6B51"/>
+    <path d="M104 948v180" stroke="#2F392C" stroke-width="5"/>
+    <path d="M104 1002c-28-26-46-44-62-78M104 1042c26-22 44-46 54-82M104 986c16-32 20-60 18-94" fill="none" stroke="#2F392C" stroke-width="5"/>
+  </g>
+  <g>
+    <path d="M1114 1130c-4-70 12-124 44-162 24 44 30 100 24 162z" fill="#4B5A45"/>
+    <path d="M1152 1130c-10-56-6-104 10-140 28 38 38 86 34 140z" fill="#68765A"/>
+    <path d="M1136 980v150" stroke="#2F392C" stroke-width="4"/>
+  </g>
+  <g fill="#5D6B50">
+    <path d="M660 1128c-14-26-14-48 0-70 14 22 14 44 0 70z"/>
+    <path d="M682 1128c-8-20-4-38 10-54 8 18 4 36-10 54z"/>
+    <path d="M640 1128c-10-18-8-34 4-48 8 14 6 30-4 48z"/>
+    <path d="M700 1128c-6-14-2-28 8-40 6 14 2 28-8 40z"/>
+  </g>
+
+  <!-- human scale -->
+  <g fill="#1C1A16">
+    <circle cx="836" cy="1068" r="8"/>
+    <path d="M828 1078h16l4 52h-24z"/>
+    <path d="M832 1080l-6 52M840 1080l8 52" stroke="#1C1A16" stroke-width="4"/>
+    <circle cx="878" cy="1076" r="7"/>
+    <path d="M871 1085h14l3 45h-20z"/>
+    <path d="M874 1087l-4 43M882 1087l6 43" stroke="#1C1A16" stroke-width="3.5"/>
+  </g>
+
+  <!-- drawing annotations -->
+  <g stroke="#1C1A16" stroke-opacity=".5" fill="none">
+    <path d="M86 1290v-38M686 1290v-38M86 1272h600"/>
+    <path d="M86 1266v12M686 1266v12"/>
+    <path d="M1120 620h38M1120 1130h38M1140 620v510"/>
+    <path d="M1134 620h12M1134 1130h12"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2.4" fill="#1C1A16" opacity=".72">
+    <text x="352" y="1254" text-anchor="middle">18.0 M</text>
+    <text x="1170" y="880" transform="rotate(-90 1170 880)" text-anchor="middle">9.4 M</text>
+    <text x="140" y="366">COURTYARD HOUSE / NAIROBI</text>
+    <text x="1104" y="666" text-anchor="end">BREEZE-BLOCK SCREEN</text>
+    <text x="438" y="1178" fill="#EFE7D7" opacity="1">VERANDA</text>
+  </g>
+  <g stroke="#1C1A16" stroke-width="2" opacity=".7">
+    <path d="M694 640l10 10M704 640l-10 10"/>
+    <path d="M140 382h12M146 376v12"/>
+  </g>
+
+  <!-- title block -->
+  <path d="M0 1346h1200" stroke="#1C1A16" stroke-width="2"/>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#1C1A16">
+    <text x="80" y="1412" font-size="46" letter-spacing="-1">Edith Nduta Kuria</text>
+    <text x="82" y="1446" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="3.2" opacity=".65">ARCHITECT · NAIROBI, KENYA</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" fill="#1C1A16" opacity=".7">
+    <text x="790" y="1392">SELECTED WORK</text>
+    <text x="790" y="1414">2021—2025</text>
+    <text x="980" y="1392">SHEET A-01</text>
+    <text x="980" y="1414">SCALE 1:100</text>
+    <text x="1090" y="1392">1°17′S</text>
+    <text x="1090" y="1414">36°49′E</text>
+  </g>
+  <path d="M760 1368v110M958 1368v110M1070 1368v110" stroke="#1C1A16" stroke-opacity=".25"/>
+  <g stroke="#1C1A16" opacity=".5">
+    <path d="M80 1462h1040" stroke-width="1"/>
+    <path d="M80 1466h1040" stroke-width="3"/>
+  </g>
+</svg>

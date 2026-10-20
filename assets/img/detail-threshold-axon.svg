@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">The Shared Threshold — axonometric</title>
+  <desc id="desc">An axonometric drawing of a courtyard housing block with three stepped bars of homes, planted shared decks and a communal courtyard.</desc>
+  <defs>
+    <pattern id="p6-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#1C1A16" stroke-opacity=".045"/>
+    </pattern>
+    <pattern id="p6-hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0v10" stroke="#1C1A16" stroke-opacity=".2" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1000" fill="#F2ECDF"/>
+  <rect width="1400" height="1000" fill="url(#p6-grid)"/>
+  <rect x="40" y="40" width="1320" height="920" fill="none" stroke="#1C1A16" stroke-opacity=".2"/>
+
+  <text x="80" y="120" font-family="Georgia, serif" font-size="44" fill="#1C1A16">A threshold,</text>
+  <text x="80" y="166" font-family="Georgia, serif" font-size="44" font-style="italic" fill="#6C7A55">shared by many.</text>
+  <text x="80" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.6" fill="#1C1A16" opacity=".55">AXONOMETRIC / 1:200</text>
+
+  <!-- ground shadow -->
+  <path d="M700 940 1040 770 700 600 360 770z" fill="#1C1A16" opacity=".08" transform="translate(20 18)"/>
+  <path d="M700 940 1040 770 700 600 360 770z" fill="#E4D9C6" stroke="#1C1A16" stroke-width="2"/>
+
+  <!-- ground context -->
+  <g fill="url(#p6-hatch)" opacity=".4">
+    <path d="M700 600 1040 770 700 940 360 770z"/>
+  </g>
+  <path d="M700 940 1040 770 700 600 360 770z" fill="none" stroke="#1C1A16" stroke-width="2"/>
+
+  <!-- back bar -->
+  <g>
+    <path d="M596.96 463.5 788.32 353 700 302 508.64 412.5z" fill="#8B9A77"/>
+    <path d="M596.96 463.5 788.32 353 788.32 591 596.96 701.5z" fill="#D9C8A8"/>
+    <path d="M508.64 412.5 700 302 700 540 508.64 650.5z" fill="#E7DCC7"/>
+    <g fill="#31403B">
+      <g transform="matrix(29.44 -17 0 -34 508.64 650.5)">
+        <rect x="0.8" y="1.4" width="1.8" height="2.6"/>
+        <rect x="3.2" y="1.4" width="1.8" height="2.6"/>
+        <rect x="5.2" y="1.8" width="1.2" height="2.2"/>
+      </g>
+    </g>
+    <g stroke="#1C1A16" stroke-width="2" opacity=".45">
+      <path d="M508.64 412.5 700 302 700 540 508.64 650.5zM596.96 463.5 788.32 353 788.32 591 596.96 701.5z"/>
+    </g>
+  </g>
+
+  <!-- right bar -->
+  <g>
+    <path d="M935.52 608 994.4 574 788.32 455 729.44 489z" fill="#B0663F"/>
+    <path d="M994.4 574 788.32 455 788.32 591 994.4 710z" fill="#D9C8A8"/>
+    <path d="M729.44 489 788.32 455 788.32 591 729.44 625z" fill="#E7DCC7"/>
+    <g fill="#31403B">
+      <g transform="matrix(29.44 -17 0 -34 788.32 591)">
+        <rect x="0.6" y="0.9" width="1.8" height="1.8"/>
+        <rect x="3.4" y="0.9" width="1.8" height="1.8"/>
+      </g>
+    </g>
+    <g stroke="#1C1A16" stroke-width="2" opacity=".45">
+      <path d="M935.52 608 994.4 574 788.32 455 729.44 489zM994.4 574 788.32 455 788.32 591 994.4 710z"/>
+    </g>
+    <g fill="#6C7A55">
+      <circle cx="950" cy="566" r="12"/>
+      <circle cx="966" cy="574" r="9"/>
+      <circle cx="938" cy="578" r="8"/>
+    </g>
+  </g>
+
+  <!-- left bar -->
+  <g>
+    <path d="M700 710 803 650.5 508.64 480.5 405.6 540z" fill="#8B9A77"/>
+    <path d="M803 650.5 508.64 480.5 508.64 650.5 803 820.5z" fill="#E7DCC7"/>
+    <path d="M405.6 540 508.64 480.5 508.64 650.5 405.6 710z" fill="#D9C8A8"/>
+    <!-- windows on courtyard face -->
+    <g fill="#31403B">
+      <g transform="matrix(-29.44 -17 0 -34 803 820.5)">
+        <rect x="0.8" y="1.2" width="1.8" height="2.6"/>
+        <rect x="2.8" y="1.2" width="1.8" height="2.6"/>
+        <rect x="4.8" y="1.4" width="1.4" height="2.2"/>
+        <rect x="6.8" y="1.2" width="1.8" height="2.6"/>
+        <rect x="8.8" y="1.4" width="0.8" height="2.2"/>
+      </g>
+    </g>
+    <!-- balcony / screen -->
+    <g stroke="#B0663F" stroke-width="3">
+      <path d="M720 760 720 660M746 774 746 674M772 788 772 688"/>
+    </g>
+    <g stroke="#1C1A16" stroke-width="2" opacity=".4">
+      <path d="M700 710 803 650.5 508.64 480.5 405.6 540zM803 650.5 508.64 480.5 508.64 650.5 803 820.5z"/>
+    </g>
+    <g fill="#6C7A55">
+      <circle cx="430" cy="522" r="12"/>
+      <circle cx="446" cy="530" r="9"/>
+      <circle cx="676" cy="662" r="10"/>
+    </g>
+  </g>
+
+  <!-- courtyard -->
+  <path d="M803 820.5 935.52 744 729.44 625 596.96 701.5z" fill="#C6D0BC" stroke="#1C1A16" stroke-width="2" opacity=".95"/>
+  <g stroke="#1C1A16" stroke-opacity=".15">
+    <path d="M803 820.5 935.52 744M596.96 701.5 729.44 625M803 820.5 729.44 625M596.96 701.5 935.52 744"/>
+  </g>
+
+  <!-- courtyard trees -->
+  <g transform="translate(788 728)">
+    <path d="M0 60V-10" stroke="#4B3E2C" stroke-width="7"/>
+    <g fill="#5D6B50">
+      <circle cx="-18" cy="-30" r="26"/>
+      <circle cx="20" cy="-42" r="22"/>
+      <circle cx="2" cy="-66" r="20"/>
+    </g>
+    <g fill="#75836A">
+      <circle cx="-4" cy="-38" r="16"/>
+      <circle cx="24" cy="-30" r="12"/>
+    </g>
+  </g>
+  <g transform="translate(672 770)">
+    <path d="M0 38V-4" stroke="#4B3E2C" stroke-width="5"/>
+    <g fill="#6E7D5D">
+      <circle cx="-12" cy="-18" r="17"/>
+      <circle cx="12" cy="-26" r="15"/>
+      <circle cx="0" cy="-42" r="12"/>
+    </g>
+  </g>
+  <g fill="#1C1A16">
+    <circle cx="842" cy="760" r="5"/>
+    <path d="M837 766h10l2 22h-14z"/>
+    <circle cx="700" cy="748" r="4"/>
+    <path d="M696 753h8l2 16h-12z"/>
+  </g>
+
+  <!-- roof terraces -->
+  <g>
+    <!-- back roof pergola -->
+    <g stroke="#6E4A34" stroke-width="4">
+      <path d="M600 448v-90M760 358v-90M600 358h160"/>
+      <path d="M620 360h0M660 360h0M700 360h0M740 360h0" stroke-width="2"/>
+    </g>
+    <g fill="#6C7A55">
+      <circle cx="620" cy="452" r="12"/>
+      <circle cx="640" cy="442" r="10"/>
+    </g>
+    <!-- people on decks -->
+    <g fill="#1C1A16">
+      <circle cx="730" cy="380" r="6"/>
+      <path d="M724 387h12l2 18h-16z"/>
+      <circle cx="520" cy="522" r="5"/>
+      <path d="M516 527h9l2 14h-13z"/>
+    </g>
+    <g fill="#B0663F">
+      <rect x="690" y="356" width="40" height="8"/>
+      <rect x="696" y="364" width="6" height="18"/>
+      <rect x="722" y="364" width="6" height="18"/>
+    </g>
+  </g>
+
+  <!-- annotations -->
+  <g stroke="#1C1A16" stroke-opacity=".45">
+    <path d="M1180 500h-90M1090 500l-70-30"/>
+    <path d="M1180 600h-110"/>
+    <path d="M1180 700h-100"/>
+    <circle cx="1088" cy="470" r="3" fill="#1C1A16"/>
+    <circle cx="1068" cy="598" r="3" fill="#1C1A16"/>
+    <circle cx="1080" cy="700" r="3" fill="#1C1A16"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2" fill="#1C1A16" opacity=".55">
+    <text x="1192" y="504">03 / SHARED ROOF GARDEN</text>
+    <text x="1192" y="604">02 / DWELLING CLUSTER</text>
+    <text x="1192" y="704">01 / COURTYARD THRESHOLD</text>
+  </g>
+
+  <!-- scale -->
+  <g transform="translate(100 860)">
+    <path d="M0 0h240" stroke="#1C1A16" stroke-width="2"/>
+    <path d="M0-6v12M80-6v12M160-6v12M240-6v12" stroke="#1C1A16" stroke-width="2"/>
+    <text x="0" y="28" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2" fill="#1C1A16" opacity=".55">0      5      10 M</text>
+  </g>
+
+  <!-- title block -->
+  <path d="M40 910h1320" stroke="#1C1A16" stroke-opacity=".4"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2" fill="#1C1A16" opacity=".6">
+    <text x="60" y="948">THE SHARED THRESHOLD</text>
+    <text x="60" y="972">JUJA, KENYA</text>
+    <text x="620" y="948">DRAWING A-601</text>
+    <text x="620" y="972">SCALE 1:200</text>
+    <text x="1060" y="948">EDITH NDUTA KURIA</text>
+    <text x="1060" y="972">2025</text>
+  </g>
+</svg>

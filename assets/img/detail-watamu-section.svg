@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Watamu Beach House — section</title>
+  <desc id="desc">A section through the elevated timber house showing stilts, deep eaves, cross ventilation and the dune landscape.</desc>
+  <defs>
+    <pattern id="p4-grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#1C1A16" stroke-opacity=".045"/>
+    </pattern>
+    <pattern id="p4-sand" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="1.2" fill="#1C1A16" opacity=".18"/>
+      <circle cx="44" cy="40" r="1" fill="#1C1A16" opacity=".14"/>
+      <circle cx="28" cy="52" r=".8" fill="#1C1A16" opacity=".12"/>
+    </pattern>
+    <pattern id="p4-hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0v10" stroke="#1C1A16" stroke-opacity=".25" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1000" fill="#F4EBDC"/>
+  <rect width="1400" height="1000" fill="url(#p4-grid)"/>
+  <rect x="40" y="40" width="1320" height="920" fill="none" stroke="#1C1A16" stroke-opacity=".2"/>
+
+  <text x="80" y="120" font-family="Georgia, serif" font-size="44" fill="#1C1A16">Lift the house.</text>
+  <text x="80" y="166" font-family="Georgia, serif" font-size="44" font-style="italic" fill="#C97B5A">Let the dune breathe.</text>
+  <text x="80" y="204" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.6" fill="#1C1A16" opacity=".55">SECTION D–D / 1:100</text>
+
+  <!-- sea and horizon -->
+  <rect x="80" y="560" width="1240" height="210" fill="#8FB0AA"/>
+  <path d="M80 560h1240" stroke="#1C1A16" stroke-opacity=".25"/>
+  <g stroke="#F4EBDC" stroke-opacity=".4" stroke-width="2">
+    <path d="M160 600h100M480 630h120M1180 610h90M240 680h150M1080 690h130"/>
+  </g>
+  <!-- dune -->
+  <path d="M80 720c180-40 340-30 520 6s300 30 720-16v128H80z" fill="#E3CFAD"/>
+  <path d="M80 720c180-40 340-30 520 6s300 30 720-16v128H80z" fill="url(#p4-sand)" opacity=".7"/>
+
+  <!-- house -->
+  <g>
+    <!-- stilts -->
+    <g fill="#6E4A34">
+      <rect x="420" y="740" width="18" height="130"/>
+      <rect x="600" y="740" width="18" height="130"/>
+      <rect x="780" y="740" width="18" height="130"/>
+      <rect x="960" y="740" width="18" height="130"/>
+      <rect x="1120" y="740" width="18" height="130"/>
+    </g>
+    <!-- deck -->
+    <rect x="360" y="720" width="840" height="24" fill="#B98A5C"/>
+    <rect x="360" y="744" width="840" height="12" fill="#8F6743"/>
+    <!-- lower volume -->
+    <rect x="430" y="620" width="700" height="100" fill="#E7DCC7"/>
+    <rect x="430" y="620" width="700" height="100" fill="none" stroke="#1C1A16" stroke-width="3"/>
+    <rect x="430" y="620" width="18" height="100" fill="url(#p4-hatch)"/>
+    <rect x="1112" y="620" width="18" height="100" fill="url(#p4-hatch)"/>
+    <g fill="#31403B">
+      <rect x="470" y="640" width="120" height="70"/>
+      <rect x="700" y="640" width="220" height="70"/>
+      <rect x="1030" y="640" width="60" height="70"/>
+    </g>
+    <g stroke="#F4EBDC" stroke-width="2" opacity=".45">
+      <path d="M760 640v70M810 640v70M860 640v70"/>
+    </g>
+    <!-- upper volume -->
+    <rect x="500" y="440" width="620" height="160" fill="#E7DCC7"/>
+    <rect x="500" y="440" width="620" height="160" fill="none" stroke="#1C1A16" stroke-width="3"/>
+    <rect x="500" y="440" width="18" height="160" fill="url(#p4-hatch)"/>
+    <rect x="1102" y="440" width="18" height="160" fill="url(#p4-hatch)"/>
+    <g stroke="#1C1A16" stroke-opacity=".3" stroke-width="2">
+      <path d="M560 458v142M760 458v142M900 458v142M1040 458v142"/>
+    </g>
+    <g fill="#1C1A16" opacity=".65">
+      <rect x="540" y="540" width="100" height="50"/>
+      <rect x="550" y="528" width="26" height="12"/>
+      <rect x="586" y="528" width="24" height="12"/>
+      <rect x="720" y="520" width="90" height="10"/>
+      <rect x="734" y="530" width="8" height="36"/>
+      <rect x="776" y="530" width="8" height="36"/>
+      <circle cx="1010" cy="500" r="7"/>
+      <path d="M1003 508h14l3 34h-20z"/>
+    </g>
+    <!-- roof -->
+    <path d="M440 440h740l-60-60H500z" fill="#3E352A"/>
+    <path d="M440 440h740l-12 18H452z" fill="#1C1A16"/>
+    <g stroke="#1C1A16" stroke-opacity=".25">
+      <path d="M500 380h640"/>
+    </g>
+    <!-- railings -->
+    <g stroke="#4B3E2C" stroke-width="4">
+      <path d="M360 720v-40M1200 720v-40M360 680h840M380 700h800"/>
+    </g>
+    <g stroke="#4B3E2C" stroke-width="2" opacity=".7">
+      <path d="M440 680v40M520 680v40M600 680v40M680 680v40M760 680v40M840 680v40M920 680v40M1000 680v40M1080 680v40M1160 680v40"/>
+    </g>
+    <!-- stairs -->
+    <g fill="#B98A5C">
+      <path d="M1040 744h100v14h-100zM1068 758h100v14h-100zM1096 772h100v14h-100zM1124 786h100v14h-100zM1152 800h100v14h-100z"/>
+    </g>
+    <g stroke="#4B3E2C" stroke-width="3">
+      <path d="M1030 744l110 70M1150 744l110 70"/>
+    </g>
+  </g>
+
+  <!-- palm -->
+  <g transform="translate(220 300)">
+    <path d="M30 660C48 480 56 340 40 190" stroke="#5B4930" stroke-width="16" fill="none"/>
+    <g fill="#4E6B4A">
+      <path d="M40 200C4 160-34 146-76 152c30 26 64 42 116 48z"/>
+      <path d="M42 190C34 138 10 104-26 82c0 44 20 80 68 108z"/>
+      <path d="M44 206c42-36 88-46 132-32-34 28-76 40-132 32z"/>
+      <path d="M42 220c46 18 78 46 96 86-48-10-82-34-96-86z"/>
+    </g>
+    <g fill="#3F5339">
+      <circle cx="44" cy="224" r="10"/>
+    </g>
+  </g>
+
+  <!-- airflow -->
+  <g fill="none" stroke="#B46544" stroke-width="3">
+    <path d="M1050 500h110M1130 488l14 12-14 12" />
+    <path d="M390 600h-40M390 612h-70"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.8" fill="#B46544">
+    <text x="1060" y="482">SEA BREEZE</text>
+  </g>
+
+  <!-- annotations -->
+  <g stroke="#1C1A16" stroke-opacity=".4">
+    <path d="M500 340v-40h620M500 300h0"/>
+    <path d="M1260 440v-50M1260 390h-40"/>
+    <path d="M380 740v80M380 820h80"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2" fill="#1C1A16" opacity=".55">
+    <text x="810" y="286" text-anchor="middle">DEEP EAVES / RAINWATER COLLECTION</text>
+    <text x="1210" y="382" text-anchor="end">TIMBER SCREEN</text>
+    <text x="475" y="838">STILTS / 1.8 M ABOVE DUNE</text>
+    <text x="560" y="900">CROSS VENTILATION THROUGH SLATS</text>
+  </g>
+
+  <!-- title block -->
+  <path d="M40 910h1320" stroke="#1C1A16" stroke-opacity=".4"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2" fill="#1C1A16" opacity=".6">
+    <text x="60" y="948">WATAMU BEACH HOUSE</text>
+    <text x="60" y="972">KILIFI, KENYA</text>
+    <text x="620" y="948">DRAWING A-402</text>
+    <text x="620" y="972">SCALE 1:100</text>
+    <text x="1060" y="948">EDITH NDUTA KURIA</text>
+    <text x="1060" y="972">2024</text>
+  </g>
+</svg>
