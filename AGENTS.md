@@ -48,11 +48,12 @@ The site is complete and committed. The working tree should normally be clean.
 Baseline commits (run `git log --oneline -10` for current history):
 
 ```text
-468190f docs: document content editing, deployment and QA
-824ecbc chore: add discovery, PWA and hosting metadata
-d2c291c feat: build portfolio page, case studies and interactions
-49865bc feat: add original architectural illustration set and brand assets
-4a5795c chore: scaffold static portfolio repository
+88ed718 docs: add persistent OpenCode project handoff
+be115e0 docs: document content editing, deployment and QA
+473dc99 chore: add discovery, PWA and hosting metadata
+d1a9f9d feat: build portfolio page, case studies and interactions
+d87d2c3 feat: add original architectural illustration set and brand assets
+7d07986 chore: scaffold static portfolio repository
 ```
 
 ## Architecture
